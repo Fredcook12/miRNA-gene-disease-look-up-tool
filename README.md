@@ -6,14 +6,14 @@ A command line tool for a local look-up database of the association between spec
 
 
  
-## To search up a specific miRNA
+# To search up a specific miRNA
 python3 database.py -s hsa 
  
-## To search up a specific disease/word
+# To search up a specific disease/word
 python3 database.py -s dystrophy
  
 
-# ################## miRNA search ##################### #
+## miRNA search 
 
 Show specified miRNAs associated gene/disease without confidence scores
 python3 database.py -m hsa-miR-940 
@@ -34,7 +34,7 @@ Show specified miRNAs associated gene/disease with both miRNA confidence scores 
 python3 database.py -m hsa-miR-940 -smi x -sdis x
  
 
-# #################### Disease search ####################### # 
+## Disease search 
 
 Please note: 1 word disease names must be inputted without quotations e.g. deafness; disease names > 1 word must be in quotations e.g. “stargardt disease”.
 
